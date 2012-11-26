@@ -13,7 +13,6 @@ function Env(dat){
       env[dat.pars[i]] = dat.args[i];
     }
   }
-  env.get_outer = get_outer;
   env.find = find;
   return env;
 }
